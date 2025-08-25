@@ -19,8 +19,8 @@
 
 ### 1. 저장소 클론/다운로드
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/csm123455/csm123455.github.io
+cd csm123455
 ```
 
 ### 2. 로컬에서 실행
@@ -109,14 +109,6 @@ portfolio-website/
 - ✅ Edge
 - ✅ Mobile browsers
 
-## 🤝 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
@@ -151,4 +143,4 @@ portfolio-website/
 
 ⭐ **이 프로젝트가 도움이 되었다면 Star를 눌러주세요!**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [csm123455]
