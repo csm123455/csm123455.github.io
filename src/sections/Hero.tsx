@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="editable" data-field="hero-title">
-            안녕하세요, 도전과 성장을 좋아하는 김멋사입니다.
+            안녕하세요, 도전과 성장을 좋아하는 조성민입니다.
             <button className="edit-btn">편집</button>
           </h1>
           <p className="editable" data-field="hero-subtitle">

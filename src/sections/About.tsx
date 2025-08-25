@@ -14,7 +14,7 @@ const About: React.FC = () => {
                 <button className="edit-btn">편집</button>
               </h3>
               <p className="editable" data-field="intro">
-                안녕히세요! 도전과 성장을 좋아하는 김멋사입니다.
+                안녕히세요! 도전과 성장을 좋아하는 조성민입니다.
                 <button className="edit-btn">편집</button>
               </p>
               <p className="editable" data-field="description">
