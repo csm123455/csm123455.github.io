@@ -1,6 +1,13 @@
 import React from 'react';
 
-const Contact: React.FC = () => {
+interface ContactProps {
+  data: {
+    email: string;
+    github: string;
+  };
+}
+
+const Contact: React.FC<ContactProps> = ({ data }) => {
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -10,17 +17,11 @@ const Contact: React.FC = () => {
             <h3>연락 정보</h3>
             <div className="contact-item">
               <i>✉</i>
-              <span className="editable" data-field="email">
-                email@example.com
-                <button className="edit-btn">편집</button>
-              </span>
+              <span>{data.email}</span>
             </div>
             <div className="contact-item">
               <i>🔗</i>
-              <span className="editable" data-field="github">
-                github.com/username
-                <button className="edit-btn">편집</button>
-              </span>
+              <span>{data.github}</span>
             </div>
           </div>
           <form className="contact-form">

@@ -1,6 +1,14 @@
 import React from 'react';
 
-const About: React.FC = () => {
+interface AboutProps {
+  data: {
+    name: string;
+    intro: string;
+    description: string;
+  };
+}
+
+const About: React.FC<AboutProps> = ({ data }) => {
   return (
     <section id="about" className="about">
       <div className="container">
@@ -9,18 +17,9 @@ const About: React.FC = () => {
           <div className="profile-card">
             <div className="profile-image"></div>
             <div className="profile-info">
-              <h3 className="editable" data-field="name">
-                자기소개
-                <button className="edit-btn">편집</button>
-              </h3>
-              <p className="editable" data-field="intro">
-                안녕히세요! 도전과 성장을 좋아하는 조성민입니다.
-                <button className="edit-btn">편집</button>
-              </p>
-              <p className="editable" data-field="description">
-                새로운 기술을 배우고자 하며, 협력과 소통을 중요한 코드를 작성하기 위해 노력합니다.
-                <button className="edit-btn">편집</button>
-              </p>
+              <h3>{data.name}</h3>
+              <p>{data.intro}</p>
+              <p>{data.description}</p>
               <div className="skills">
                 <div className="skill-icon" title="HTML">H</div>
                 <div className="skill-icon" title="CSS">C</div>
