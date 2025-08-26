@@ -38,4 +38,4 @@
 
 [Create React App 문서](https://facebook.github.io/create-react-app/docs/getting-started)에서 더 많은 것을 배울 수 있습니다.
 
-React를 배우려면 [React 문서](https://reactjs.org/)를 확인하세요.
+React를 배우려면 [React 문서](https://reactjs.org/)를 확인하세요
