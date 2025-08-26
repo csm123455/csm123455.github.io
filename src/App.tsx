@@ -1,35 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import EditPage from './pages/EditPage';
-import { initialContent, ContentData } from './data/content';
+import React from 'react';
 import './styles/App.css';
+import Header from './components/Header';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Contact from './sections/Contact';
 
 function App() {
-  const [content, setContent] = useState<ContentData>(() => {
-    try {
-      const savedContent = localStorage.getItem('portfolioContent');
-      return savedContent ? JSON.parse(savedContent) : initialContent;
-    } catch (error) {
-      console.error("Could not parse localStorage content, using initial content.", error);
-      return initialContent;
-    }
-  });
-
-  useEffect(() => {
-    try {
-      localStorage.setItem('portfolioContent', JSON.stringify(content));
-    } catch (error) {
-      console.error("Could not save content to localStorage.", error);
-    }
-  }, [content]);
-
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<HomePage content={content} />} />
-        <Route path="/edit" element={<EditPage content={content} setContent={setContent} />} />
-      </Routes>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
