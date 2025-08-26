@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
             </div>
             <div className="contact-item resume-download">
               <h3>내 자기소개서</h3>
-              <a href="/assets/pdf/portfolio.docx" target="_blank" rel="noopener noreferrer" className="download-btn">
+              <a href="/pdf/portfolio.docx" target="_blank" rel="noopener noreferrer" className="download-btn">
                 <FaFilePdf /> 자기소개서 다운로드
               </a>
             </div>
