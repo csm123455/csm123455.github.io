@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <header className="header">
       <div className="container">
         <nav className="nav">
-          <div className="logo">포트폴리오 과제</div>
+          <div className="logo">ChoSeongMin</div>
           <ul className="nav-links">
             <li><a href="#home">홈</a></li>
             <li><a href="#about">소개</a></li>

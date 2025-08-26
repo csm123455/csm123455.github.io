@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaEnvelope, FaGithub, FaPhone, FaFilePdf } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -35,13 +36,23 @@ const Contact: React.FC = () => {
           <div className="contact-info">
             <h3>연락 정보</h3>
             <div className="contact-item">
-              <i>✉</i>
+              <FaEnvelope />
               <span>csm123455@gmail.com</span>
             </div>
             <div className="contact-item">
-              <i>🔗</i>
+              <FaGithub />
               <a href="https://github.com/csm123455" target="_blank" rel="noopener noreferrer">
                 github.com/csm123455
+              </a>
+            </div>
+            <div className="contact-item">
+              <FaPhone />
+              <span>010-2495-5667</span>
+            </div>
+            <div className="contact-item resume-download">
+              <h3>내 자기소개서</h3>
+              <a href="/assets/pdf/portfolio.docx" target="_blank" rel="noopener noreferrer" className="download-btn">
+                <FaFilePdf /> 자기소개서 다운로드
               </a>
             </div>
           </div>
