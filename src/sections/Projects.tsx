@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { projects } from '../data/projectsData';
+import { projectsData } from '../data/projectsData';
 import { FaGithub, FaFilePdf } from 'react-icons/fa';
 import { SiNotion } from 'react-icons/si';
 
@@ -10,11 +10,11 @@ const Projects: React.FC = () => {
       <div className="container">
         <h2 className="section-title">프로젝트 소개</h2>
         <div className="projects-grid">
-          {projects.map((project) => (
+          {projectsData.map((project) => (
             <div key={project.id} className="project-card">
               <Link to={`/projects/${project.id}`} className="project-card-main-link">
                 <div className="project-image-container">
-                  <img src={project.imageUrl} alt={`${project.title} 이미지`} className="project-image" />
+                  <img src={project.image} alt={`${project.title} 이미지`} className="project-image" />
                 </div>
                 <div className="project-content-top">
                   <h3>{project.title}</h3>

@@ -185,6 +185,21 @@ body {
     font-size: 1.1rem;
 }
 
+.download-resume a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #3498db; /* A common link color */
+    text-decoration: none;
+    font-size: 1rem; /* Adjust as needed to match intro-item */
+    margin-top: 10px; /* Space from the summary text */
+}
+
+.download-resume a:hover {
+    text-decoration: underline;
+}
+
 .intro-summary {
     font-size: 0.95rem !important; /* Override more specific p selector */
     text-align: center;

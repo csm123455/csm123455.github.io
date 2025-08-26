@@ -1,8 +1,6 @@
 import React from 'react';
 import profileImage from '../assets/images/facephoto.png';
-
-
-import { FaBirthdayCake } from 'react-icons/fa';
+import { FaBirthdayCake, FaDownload } from 'react-icons/fa';
 
 const About: React.FC = () => {
   return (
@@ -22,6 +20,12 @@ const About: React.FC = () => {
                 <span>1998.09.17</span>
               </div>
               <p className="intro-summary">새로운 기술 학습, 협력, 소통을 중요하게 생각하며 함께 성장하는 개발자를 지향합니다.</p>
+              <div className="intro-item download-resume">
+                <a href="/pdf/portfolio.docx" target="_blank" rel="noopener noreferrer">
+                  <FaDownload />
+                  <span>자기소개서 다운로드</span>
+                </a>
+              </div>
             </div>
           </div>
           <div className="about-right-details">
@@ -101,7 +105,7 @@ const About: React.FC = () => {
               <li><strong>멋쟁이사자처럼 클라우드 스쿨: AWS 기반 DevOps 엔지니어 과정 (수료)</strong>
                 <ul>
                   <li><em>2025.03 ~ 2025.08</em></li>
-                  <li>DevOps 및 클라우드 엔지니어링 심화 학습, 풀스택 개발 및 인프라 배포 프로젝트 수행 예정.</li>
+                  <li>DevOps 및 클라우드 엔지니어링 심화 학습, 풀스택 개발 및 인프라 배포 프로젝트 수행.</li>
                 </ul>
               </li>
             </ul>

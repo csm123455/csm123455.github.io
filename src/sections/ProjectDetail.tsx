@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { projects } from '../data/projectsData';
+import { projectsData } from '../data/projectsData';
 
 const ProjectDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const project = projects.find(p => p.id === id);
+  const project = projectsData.find(p => p.id === Number(id));
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -26,16 +26,18 @@ const ProjectDetail: React.FC = () => {
         <h1>{project.title}</h1>
         <p className="project-detail-description">{project.description}</p>
         <div className="project-detail-image-container">
-            <img src={project.imageUrl} alt={`${project.title} 이미지`} />
+            <img src={project.image} alt={`${project.title} 이미지`} />
         </div>
         
         {/* This is where the generated content will go */}
         <div className="project-detail-content">
           <h3>상세 내용</h3>
-          {project.details ? (
-            <div dangerouslySetInnerHTML={{ __html: project.details }} />
-          ) : (
-            <p>상세 내용을 준비 중입니다...</p>
+          {project.details && (
+            <div className="project-detail-text-content">
+              {project.details.map((detail, index) => (
+                <p key={index}>{detail}</p>
+              ))}
+            </div>
           )}
         </div>
 
