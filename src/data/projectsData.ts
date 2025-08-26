@@ -16,7 +16,7 @@ export const projectsData = [
             { name: "Infra", url: "https://github.com/CLD3rd-Team4/Infra" },
         ],
         notionUrl: "https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=25344860a4f480e994e7ea34ff53a849&pm=s",
-        presentationPdfUrl: null,
+        presentationPdfUrl: "/pdf/mapzip.pdf",
         demo: "https://mapzip.vercel.app/",
     },
     {
@@ -36,7 +36,7 @@ export const projectsData = [
             { name: "Manifest", url: "https://github.com/CLD-3rd/team1-manifest/tree/dev" },
         ],
         notionUrl: "https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=22a44860a4f4803bb60cf51c5424d90f&pm=c",
-        presentationPdfUrl: null,
+        presentationPdfUrl: "/pdf/jazz.pdf",
         demo: "https://jazz.vercel.app/",
     },
     {
@@ -55,7 +55,7 @@ export const projectsData = [
             { name: "Smokezone", url: "https://github.com/csm123455/Smokezone" },
         ],
         notionUrl: null,
-        presentationPdfUrl: null,
+        presentationPdfUrl: "/pdf/smokezone.pdf",
         demo: "https://smokezone.vercel.app/",
     },
     {
@@ -71,10 +71,10 @@ export const projectsData = [
         ],
         tags: ["백엔드", "FCM", "예약 시스템"],
         githubLinks: [
-            { name: "Infra", url: "https://github.com/CLD-3rd/infra-team4" },
+            { name: "Study Room", url: "https://github.com/CLD-3rd/infra-team4" },
         ],
         notionUrl: "https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=1f544860a4f48080a2fde7549105b848&pm=c&pvs=25#1f644860a4f4808882aacc41365565be",
-        presentationPdfUrl: null,
+        presentationPdfUrl: "/pdf/studyroom.pdf",
         demo: "https://studyroom.vercel.app/",
     },
 ];

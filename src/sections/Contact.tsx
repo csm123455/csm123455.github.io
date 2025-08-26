@@ -49,12 +49,6 @@ const Contact: React.FC = () => {
               <FaPhone />
               <span>010-2495-5667</span>
             </div>
-            <div className="contact-item resume-download">
-              <h3>내 자기소개서</h3>
-              <a href="/pdf/portfolio.docx" target="_blank" rel="noopener noreferrer" className="download-btn">
-                <FaFilePdf /> 자기소개서 다운로드
-              </a>
-            </div>
           </div>
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div className="form-group">
