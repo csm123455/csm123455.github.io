@@ -10,7 +10,6 @@ export const projectsData = [
             "기술 스택: React, Node.js, Express, MongoDB, Google Maps API, Kakao Maps API",
             "프로젝트 기간: 2025.07.16 ~ 2025.08.22",
         ],
-        tags: ["AI", "MSA", "추천 시스템", "웹"],
         githubLinks: [
             { name: "App", url: "https://github.com/CLD3rd-Team4/App" },
             { name: "Infra", url: "https://github.com/CLD3rd-Team4/Infra" },
@@ -30,13 +29,12 @@ export const projectsData = [
             "기술 스택: React, Node.js, Express, MongoDB, AWS S3",
             "프로젝트 기간: 2025.05.28 ~ 2025.07.15",
         ],
-        tags: ["E-commerce", "CI/CD", "웹"],
         githubLinks: [
             { name: "Infra", url: "https://github.com/CLD-3rd/team1-infra/tree/dev" },
             { name: "Manifest", url: "https://github.com/CLD-3rd/team1-manifest/tree/dev" },
         ],
         notionUrl: "https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=22a44860a4f4803bb60cf51c5424d90f&pm=c",
-        presentationPdfUrl: "/pdf/jazz.pdf",
+        presentationPdfUrl: null,
         demo: "https://jazz.vercel.app/",
     },
     {
@@ -50,7 +48,6 @@ export const projectsData = [
             "기술 스택: React Native, Node.js, Express, MongoDB, Google Maps API",
             "프로젝트 기간: 2025.03.08 ~ 2025.06.10",
         ],
-        tags: ["모바일", "Android", "Spring Boot", "위치 기반"],
         githubLinks: [
             { name: "Smokezone", url: "https://github.com/csm123455/Smokezone" },
         ],

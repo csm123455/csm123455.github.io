@@ -296,7 +296,7 @@ body {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px; /* Reduced gap to fit 4 cards */
+    gap: 40px;
 }
 
 .project-card {

@@ -22,11 +22,7 @@ const Projects: React.FC = () => {
                 </div>
               </Link>
               <div className="project-content-bottom">
-                <div className="project-tags">
-                  {project.tags.map((tag, index) => (
-                    <span key={index} className="project-tag">{tag}</span>
-                  ))}
-                </div>
+                
                 <div className="project-links">
                   <div className="github-links">
                     {project.githubLinks.map((link, index) => (
