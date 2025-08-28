@@ -3,6 +3,7 @@ export const projectsData = [
         id: 1,
         title: "Mapzip",
         image: "/images/mapzip.jpg",
+        detailImage: "/images/mapzipviewdetail.jpg",
         description: "장거리 이동 맞춤형 AI 맛집 추천 서비스",
         details: [
             "개요: 장거리 이동 맞춤형 AI 맛집 추천 서비스",
@@ -41,6 +42,7 @@ export const projectsData = [
         id: 3,
         title: "Smokezone",
         image: "/images/smokezone.jpg",
+        detailImage: "/images/smokezoneviewdetail.jpg",
         description: "흡연구역 정보 공유 애플리케이션",
         details: [
             "개요: 흡연구역 정보 공유 애플리케이션",

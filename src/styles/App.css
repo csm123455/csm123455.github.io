@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -57,14 +57,12 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
     text-align: center;
     padding: 150px 0;
     position: relative;
     overflow: hidden;
-    animation: gradientBG 15s ease infinite;
 }
 
 .hero-content {
@@ -76,9 +74,7 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 25px;
-    background: linear-gradient(135deg, #ffffff 0%, #a7c5eb 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #a7c5eb; /* Fixed light blue color */
     animation: fadeInUp 1s ease-out;
     line-height: 1.2;
 }
@@ -296,7 +292,7 @@ body {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 30px;
 }
 
 .project-card {
@@ -418,7 +414,7 @@ body {
 }
 
 .project-detail-container {
-    max-width: 900px;
+    max-width: 1100px;
 }
 
 .back-link {
@@ -446,9 +442,10 @@ body {
 
 .project-detail-image-container {
     width: 100%;
+    max-width: 800px; /* Added max-width */
+    margin: 0 auto 40px auto; /* Centered and kept bottom margin */
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 40px;
 }
 
 .project-detail-image-container img {

@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
     if (form.current) {
       emailjs.sendForm(
         'service_y196tki', // Service ID
-        'template_shst9oy', // Template ID
+        'template_aq8vdrt', // Template ID
         form.current,
         'rizVJ9XgpAz-yIc-V' // Public Key
       )

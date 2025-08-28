@@ -26,7 +26,7 @@ const ProjectDetail: React.FC = () => {
         <h1>{project.title}</h1>
         <p className="project-detail-description">{project.description}</p>
         <div className="project-detail-image-container">
-            <img src={project.image} alt={`${project.title} 이미지`} />
+            <img src={(project as any).detailImage || project.image} alt={`${project.title} 이미지`} />
         </div>
         
         {/* This is where the generated content will go */}
